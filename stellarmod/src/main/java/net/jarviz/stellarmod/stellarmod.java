@@ -19,12 +19,12 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
 import software.bernie.geckolib.GeckoLib;
 
-@Mod(TutorialMod.MOD_ID)
-public class TutorialMod {
+@Mod(stellarmod.MOD_ID)
+public class stellarmod {
     public static final String MOD_ID = "stellarmod";
     public static final Logger LOGGER = LogUtils.getLogger();
 
-    public TutorialMod() {
+    public stellarmod() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
         ModEntities.register(modEventBus);
 

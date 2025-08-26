@@ -9,7 +9,7 @@ import net.minecraftforge.event.TickEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 
-import static net.jarviz.stellarmod.TutorialMod.MOD_ID;
+import static net.jarviz.stellarmod.stellarmod.MOD_ID;
 
 @Mod.EventBusSubscriber(modid = MOD_ID, value = Dist.CLIENT)
 public class ClientSprintSync {
